@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(8, 0, 10);
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  background-image: url(./morty.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-width: 90%;
+  min-height: 300px;
+}
+
+.div-letras {
+  display: grid;
+  place-items: center;
+}
+.img-letras {
+  display: grid;
+  width: 40%;
+  place-items: center;
+  margin-top: -4rem;
+}
+
+.input {
+  display: grid;
+  place-items: center;
+  margin-left: -9rem;
+}
+
+.input-text {
+  width: 220px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: transparent;
+  box-shadow: 2px 2px 2px 2px #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+
+.button {
+  display: grid;
+  place-items: center;
+  margin-left: 15rem;
+  margin-top: -3.5rem;
+  margin-bottom: 0;
+}
+
+button {
+  border-radius: 40px;
+  width: 140px;
+  height: 50px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  box-shadow: 2px 2px 2px 2px #fff;
+}
+
+.contenedor-hijo {
+  display: grid;
+  place-items: center;
+}
+
+.ul-main {
+  margin-top: 3rem;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  align-items: center;
+  list-style: none;
+  width: 90%;
+  height: 100px;
+  color: #fff;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #fff;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7rem;
+  margin-top: 3rem;
+}
+
+.card-characters {
+  color: aliceblue;
+  display: grid;
+  place-items: center;
+  border-radius: 30px 30px;
+  box-shadow: 2px 2px 2px 2px #fff;
+  background-color: rgba(10, 3, 34, 0.598);
+  width: 350px;
+  height: 400px;
+  text-align: center;
+}
+
+.alive {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px 4px #4ab648;
+}
+.dead {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px 4px #b94343;
+}
+.unknow {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px 4px #938686;
+}
