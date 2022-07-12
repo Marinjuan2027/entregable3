@@ -17,7 +17,9 @@ body {
   background-position: center;
   display: flex;
   min-width: 90%;
-  min-height: 300px;
+  min-height: 200px;
+  left: 0px;
+  top: 0px;
 }
 
 .div-letras {
@@ -26,7 +28,7 @@ body {
 }
 .img-letras {
   display: grid;
-  width: 40%;
+  width: 60%;
   place-items: center;
   margin-top: -4rem;
 }
@@ -90,7 +92,7 @@ button {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 7rem;
   margin-top: 3rem;
 }
@@ -111,6 +113,10 @@ button {
   width: 200px;
   border-radius: 50%;
   box-shadow: 4px 4px 4px 4px #4ab648;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 .dead {
   width: 200px;
